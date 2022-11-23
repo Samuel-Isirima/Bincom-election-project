@@ -1,0 +1,30 @@
+{
+  "name": "bincom-interview-election-project",
+  "version": "1.0.0",
+  "description": "An election result data manipulation project to test programming and development skills",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Isirima/Bincom-election-project.git"
+  },
+  "keywords": [
+    "election",
+    "interview",
+    "bincom",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Samuel Isirima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel-Isirima/Bincom-election-project/issues"
+  },
+  "homepage": "https://github.com/Samuel-Isirima/Bincom-election-project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
