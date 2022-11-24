@@ -34,7 +34,7 @@ res.status(200).sendFile(path.resolve(__dirname, './ui/side-navbar.html'))
 
 
 
-app.listen(7071, ()=>
+app.listen(7072, ()=>
 {
-console.log('Main app root, listening on 7071')    
+console.log('Main app root, listening on 7072')    
 })

@@ -97,122 +97,52 @@
                         <!-- ============================================================== -->
                         <!-- end pageheader -->
                         <!-- ============================================================== -->
-                            <div style="text-align: center;"><h2>Financial</h2></div>
-                            <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <a href="/arraund-business/wallet/details"><h5 class="text-muted">Wallet Balance</h5></a>
-                                        <div class="metric-value d-inline-block">
-                                            <h1 class="mb-1 wb-d0">&#8358;</h1>
-                                        </div>
-                                    </div>
-                                    <canvas id="wallet-balance"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="text-muted">Total Amount Earned</h5>
-                                        <div class="metric-value d-inline-block">
-                                            <h1 class="mb-1 ae-d0">&#8358;</h1>
-                                        </div>
-                                       <!--  <div class="metric-label d-inline-block float-right text-success font-weight-bold">
-                                            <span><i class="fa fa-fw fa-arrow-up"></i></span><span>5.86%</span>
-                                        </div> -->
-                                    </div>
-                                    <canvas id="amount-earned"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                            <div style="text-align: center;"><h2>Orders</h2></div>
                         <div class="row">
-                            <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 col-12">
+
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 center-align text-center">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="text-muted">Number of orders</h5>
+                                        <div class="metric-value d-inline-block">
+                                            <label for="">Select Polling Unit</label>
+                                            <select name="" id="" style="margin: 20px;">
+                                                <option value="non">non</option>
+                                                <option value="non">non</option>
+                                                <option value="non">non</option>
+                                                <option value="non">non</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                    <canvas id="orders-can"></canvas>
                                 </div>
                             </div>
-                            
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
+
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="text-muted">Order Delivery</h5>
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <h5 class="text-muted">Total Number Of Votes</h5>
+                                                <div class="metric-value d-inline-block">
+                                                    <h1 class="mb-1 wb-d0">2,440</h1>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <h5 class="text-muted">Votes Per Party</h5>
+                                                <div class="metric-value d-inline-block">
+                                                    <b class="mb-1 wb-d0">PDP - 2,440</b>
+                                                    <b class="mb-1 wb-d0">PDP - 2,440</b>
+                                                    <b class="mb-1 wb-d0">PDP - 2,440</b>
+                                                    <b class="mb-1 wb-d0">PDP - 2,440</b>
+                                                </div>
+                                                <canvas id="votes-per-party-can"></canvas>
+                                            </div>
+
+                                        </div>
                                     </div>
-                                    <canvas id="order-delivery-metrics"></canvas>
                                 </div>
                             </div>
+                           
                         </div>
-
-                        <div style="text-align: center;"><h2>Reach</h2></div>
-                         <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Business Page Visits (<b class="bpv-tN"></b>)</h5>
-                                <div class="card-body">
-                                </div>
-                                <div class="card-body bg-light p-t-40 p-b-40">
-                                   <canvas id="business-page-visits-distribution"></canvas>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Business Impressions (<b class="b-im0-tN"></b>)</h5>
-                                <div class="card-body">
-                                </div>
-                                <div class="card-body text-center bg-light p-t-40 p-b-40">
-                                   <canvas id="business-impressions"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Number of Products (<b class="np-tN"></b>)</h5>
-                                <div class="card-body">
-                                </div>
-                                <div class="card-body bg-light p-t-40 p-b-40">
-                                   <canvas id="business-page-products-total-number-distribution"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Product Impressions (<b class="p-im0-tN"></b>)</h5>
-                                <div class="card-body">
-                                </div>
-                                <div class="card-body bg-light p-t-40 p-b-40">
-                                   <canvas id="products-impressions-distribution"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Number of Services (<b class="ns-tN"></b>)</h5>
-                                <div class="card-body">
-                                </div>
-                                <div class="card-body bg-light p-b-40 p-t-40">
-                                    <canvas id="services-total-number-distribution"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                   
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="card">
-                                <h5 class="card-header">Service Impressions (<b class="s-im0-tN"></b>)</h5>
-                                <div class="card-body">
-                                </div>
-                                <div class="card-body bg-light p-b-40 p-t-40">
-                                    <canvas id="services-impressions-distribution"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                   
-                       
-                    </div>
             </div>
         </div>
     </div>
