@@ -52,16 +52,16 @@
                                 Menu
                             </li>
                               <li class="nav-item">
-                                <a class="nav-link white-text active" href="/arraund-business/dashboard"><i class="fas fa-chart-bar"></i> Business Stats</a>
+                                <a class="nav-link white-text active" href="dashboard"><i class="fas fa-chart-bar"></i> Business Stats</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link white-text" href="/arraund-business/wallet/details"><i class="fa fa-money-bill-alt"></i> Wallet</a>
+                                <a class="nav-link white-text" href="wallet/details"><i class="fa fa-money-bill-alt"></i> Wallet</a>
                             </li>                            <li class="nav-item">
-                                <a class="nav-link white-text" href="/arraund-business/create-product"><i class="fas fa-plus"></i> Add Product</a>
+                                <a class="nav-link white-text" href="create-product"><i class="fas fa-plus"></i> Add Product</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link white-text" href="/arraund-business/products"><i class="fa fa-eye"></i> See Products</a>
+                                <a class="nav-link white-text" href="products"><i class="fa fa-eye"></i> See Products</a>
                             </li>
                         </ul>
                     </div>
@@ -104,11 +104,7 @@
                                     <div class="card-body">
                                         <div class="metric-value d-inline-block">
                                             <label for="">Select Polling Unit</label>
-                                            <select name="" id="" style="margin: 20px;">
-                                                <option value="non">non</option>
-                                                <option value="non">non</option>
-                                                <option value="non">non</option>
-                                                <option value="non">non</option>
+                                            <select name="" class="pus" style="margin: 20px;">
                                             </select>
                                         </div>
                                     </div>
@@ -122,7 +118,7 @@
                                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                                 <h5 class="text-muted">Total Number Of Votes</h5>
                                                 <div class="metric-value d-inline-block">
-                                                    <h1 class="mb-1 wb-d0">2,440</h1>
+                                                    <h1 class="mb-1 wb-d0 tnv">2,440</h1>
                                                 </div>
                                             </div>
 
@@ -158,8 +154,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js" integrity="sha512-b3xr4frvDIeyC3gqR1/iOi6T+m3pLlQyXNuvn5FiRrrKiMUJK3du2QqZbCywH6JxS5EOfW0DY0M6WwdXFbCBLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/arraund-business/controllers/dashboard.js?no_cache=<?php echo generate_UUID(); ?>"></script>
-    <script src="/arraund-business/controllers/chart-configurations.js?no_cache=<?php echo generate_UUID(); ?>"></script>
+    <script src="controllers/polling-unit-result.js"></script>
+    <script src="controllers/chart-configurations.js"></script>
 
 </body>
  

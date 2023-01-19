@@ -1,9 +1,11 @@
 class Party
 {
-    constructor(id, partyid, partyname)
+    constructor(result)
     {
-        this.id = id
-        this.partyid = partyid
-        this.partyname = partyname
+        this.id = result['id']
+        this.partyid = result['partyid']
+        this.partyname = result['partyname']
     }
 }
+
+module.exports = Party
